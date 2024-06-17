@@ -1,5 +1,8 @@
+import { BentoGrid } from "@/components/ui/bento-grid"
 import { Hero } from "./hero"
 import { Services } from "./services"
+import { BentoGridSecondDemo} from "./test-ui"
+import { BackgroundBeams } from "./ui/background-beams";
 
 export const Landing = () => {
     return(
@@ -7,10 +10,14 @@ export const Landing = () => {
             {/*Hero */}
             <Hero/>
             {/*Services */}
-            <Services/>
+            <BentoGridSecondDemo/>
+            
             {/*Testimonials */}
+            <Services/>
             {/*Calendly */}
             {/*Footer */}
+            <BackgroundBeams/>
+            
         </div>
     )
 }
